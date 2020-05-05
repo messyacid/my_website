@@ -1,1 +1,408 @@
+body{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
 
+h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.8em;
+	color: gray;
+}
+
+.video{
+	width: 100%;
+}
+
+.mobile{
+	display: none;
+}
+
+.top-container{
+	position: relative;
+	background-color: black;
+}
+
+.top-container h1{
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	font-weight: bolder;
+	font-size: 7rem;
+	margin-top: 0;
+	font-family: 'Sacramento', cursive;
+	color: white;
+}
+
+.top-container h2{
+	position: absolute;
+	left: 10%;
+	top: 26%;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.7em;
+	color: white;
+}	
+
+#neon{
+	position: absolute;
+	left: 78%;
+	top: 5%;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 15px 30px;
+	color: white;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 24px;
+	letter-spacing: 4px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+
+#neon:hover{
+	color: #035aa6;
+	background: #2196f3;	
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+.middle-container{ 
+	position: relative;
+	background-color: #000000;
+	height: 550px;
+	text-align: center;
+	color: white;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.middle-container h2{
+	position: relative;
+	top: 160px;
+	font-weight: bold;
+	font-size: 3.3rem;
+	text-transform: uppercase;
+	background: -webkit-gradient(linear, left top, right top, from(#FC466B), to(#3F5EFB));
+  	background: linear-gradient(to right, #FC466B 40%, #3F5EFB 70%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	font-family: "Poppins", sans-serif;
+}
+
+.middle-container p{
+	position: relative;
+	top: 180px;
+	font-size: 17px;
+}
+
+.emoji{
+	position: relative;
+	width: 30px;
+}
+
+.hr1{
+	border-style: dotted;
+	border-top: none;
+	border-width: 9px;
+	width: 10%;
+	color: #ffbcbc;
+	margin-top: 120px;
+	margin-bottom: 50px;
+}
+
+.skills{
+	position: relative;
+	text-align: center;
+	color: gray;
+	padding: 80px 0;
+}
+
+.skill-heading{
+	padding-bottom: 80px;
+}
+
+.laptop-vector{
+	width: 25%;
+	position: relative;
+	left: 40%;
+	border-radius: 15px;
+}
+
+.skills h1{
+	float: right;
+	right: 46%;
+	top: 90px;
+	position: relative;
+	font-weight: bold;
+	font-size: 4rem;
+	text-transform: uppercase;
+  	background: -webkit-gradient(linear, left top, right top, from(#4A00E0), to(#8E2DE2));
+  	background: linear-gradient(to right, #4A00E0 0%, #8E2DE2 100%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	font-family: "Poppins", sans-serif;
+}
+
+.tech-p{
+	float: right;
+	position: relative;
+	bottom: 90px;
+	right: 72%;
+}
+
+.skill-row{
+	padding: 30px;
+}
+
+.html{
+	width: 50%;
+}
+
+.css{
+	width: 50%;
+}
+
+.java{
+	width: 50%;
+}	
+
+.boot{
+	width: 50%;
+}	
+
+hr{
+	border-style: dotted;
+	border-top: none;
+	border-width: 9px;
+	width: 10%;
+	color: #ffbcbc;
+	margin-bottom: 120px;
+}
+
+
+#bottom-container{
+	position: relative;
+	height: 160px;
+	background-color: #4d089a;
+	border-radius: 15px;
+}
+
+.social-icons{
+	text-align: center;
+	padding-top: 25px;
+}
+
+.facebook{
+	color: white;
+	padding: 20px 5px;
+}
+
+.facebook:hover{
+	color: #f40552;
+}
+
+.instagram{
+	color: white;
+	padding: 20px 5px;
+}
+
+.instagram:hover{
+	color: #f40552;
+}
+
+.github{
+	color: white;
+	padding: 20px 5px;
+}
+
+.github:hover{
+	color: #f40552;
+}
+
+.linkedin{
+	color: white;
+	padding: 20px 5px;
+}	
+
+.linkedin:hover{
+	color: #f40552;
+}
+
+.pinterest{
+	color: white;
+	padding: 20px 5px;
+}
+
+.pinterest:hover{
+	color: #f40552;
+}
+
+.copyright{
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+.attributes{
+	margin: 0;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+.freepik{
+	color: white;
+}
+
+.font-awe{
+	color: white;
+}
+
+.icon-find{
+	color: white;
+}
+
+.freepik:hover{
+	color: #f40552;
+	text-decoration: none;
+}
+
+.font-awe:hover{
+	color: #f40552;
+	text-decoration: none;
+}
+
+.icon-find:hover{
+	color: #f40552;
+	text-decoration: none;
+}
+
+@media (max-width: 750px){
+	.video{ 
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+		width: 100%;
+		background-color: black;
+		opacity: 0.4;
+
+	}
+
+	.top-container h1{
+		left: 4%;
+		top: 13%;
+		font-weight: 1000;
+		font-size: 4rem;
+		margin-top: 0;
+	}
+
+	.top-container h2{
+		left: 4%;
+		top: 24%;
+		font-size: 25px;
+		font-weight: lighter;
+	}
+
+
+	#neon{
+		left: 64%;
+		top: 3%;
+		padding: 9px 17px;
+		font-size: 10px;
+		letter-spacing: 2px;
+	}
+
+	.middle-container{ 
+		height: 620px;
+		border-radius: 0;
+	}
+
+	.hr1{
+		border-width: 8px;
+		width: 20%;
+		margin-top: 90px;
+		margin-bottom: 0;
+	}
+
+	.hr2{
+		border-width: 8px;
+		width: 20%;
+		margin-bottom: 90px;
+	}
+
+	.middle-container h2{
+		top: 33%;
+		font-size: 2.5rem;
+	}
+
+	.emoji{
+		width: 26px;
+	}
+
+	.middle-container p{
+		top: 37%;
+		font-size: 16px;
+	}
+
+	.skills{
+		padding-top: 80px;
+		padding-bottom: 30px;
+	}
+
+	.laptop-vector{
+		width: 85%;
+		left: 0;
+	}
+
+	.skill-heading{
+		padding-bottom: 0;
+	}
+
+	.skills h1{
+		float: none;
+		right: 0;
+		top: 30px;
+		font-weight: 1000;
+		font-size: 2.3rem;
+	}
+
+	.tech-p{
+		float: none;
+		top: 0px;
+		right: 0;
+		font-size: 0.9rem;
+	}
+
+	.skill-row{
+		margin-top: 20px;
+		padding: 20px;
+	}
+
+	.java{
+		margin-top: 15px;
+	}	
+
+	.boot{
+		margin-top: 15px;
+	}	
+
+	h4{
+		font-size: 0.6em;
+	}
+
+	#bottom-container{
+		border-radius: 0;
+	}
+
+	.copyright{
+		margin-top: 0px;
+		font-size: 11px;
+	}
+
+	.attributes{
+		margin: 0;
+		font-size: 11px;
+	}
+
+}
